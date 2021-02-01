@@ -31,7 +31,7 @@ public class AirPortCalculator {
      for(int counter = 1 ; counter <=numofpassenger  ;counter++ )
      {
          
-        System.out.println(" enter the passanger class for passenger number" +counter);
+        System.out.println(" enter the passanger class -'A', 'B', or 'C'- for passenger number" +counter);
         passengerclass=input.next().charAt(0);
 
         System.out.println("enter bag weight");
